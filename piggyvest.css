@@ -1466,7 +1466,7 @@ section {
     color: #475969;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: start;
     margin-left: 35px;
     margin-right: 0;
 
