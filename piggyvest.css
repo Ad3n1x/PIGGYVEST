@@ -1882,23 +1882,23 @@ section {
 
 @media (max-width:412px) {
     .svg {
-        margin-top: 40% !important;
+        margin-top: 40%;
     }
 
     .svg1 {
-        margin-top: 42% !important;
+        margin-top: 42%;
     }
 
     .svg2 {
-        margin-top: 0% !important;
+        margin-top: 0%;
     }
 
     .svg4 {
-        margin-top: 0% !important;
+        margin-top: 0%;
     }
 
     .svg5 {
-        margin-top: 0% !important;
+        margin-top: 0%;
     }
 }
 
@@ -1914,15 +1914,21 @@ section {
     .footer-img {
         width: 100%;
     }
+    .svg{
+        margin-top:47% ;
+    }
+    .svg2{
+        margin-top: 50%;
+    }
 }
 
 @media (width:375px) {
     .svg {
-        margin-top: 45%;
+        margin-top: 46%;
     }
 
     .svg1 {
-        margin-top: 50%;
+        margin-top: 55%;
     }
 }
 
