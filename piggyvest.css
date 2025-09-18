@@ -2188,7 +2188,7 @@ section {
         transform: translate(0px, 50px);
     }
     .secc{
-        height: 800px;
+        height: 80%
     }
 }
 @media (width:760px){
