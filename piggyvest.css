@@ -2188,7 +2188,10 @@ section {
         transform: translate(0px, 50px);
     }
     .secc{
-        height: 80%
+        width: 100%;
+    }
+    .svg3{
+        margin-top: 0;
     }
 }
 @media (width:760px){
