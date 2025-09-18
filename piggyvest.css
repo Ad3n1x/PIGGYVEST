@@ -1879,23 +1879,27 @@ section {
         width: 150px;
     }
 }
-@media (max-width:412px)
-{
- .svg{
-    margin-top: 40% !important;
- }
- .svg1{
-    margin-top: 42% !important;
- }
-.svg2{
-    margin-top: 0% !important;
-}
-.svg4{
-    margin-top: 0% !important;
-}
-.svg5{
-    margin-top: 0% !important;
-}
+
+@media (max-width:412px) {
+    .svg {
+        margin-top: 40% !important;
+    }
+
+    .svg1 {
+        margin-top: 42% !important;
+    }
+
+    .svg2 {
+        margin-top: 0% !important;
+    }
+
+    .svg4 {
+        margin-top: 0% !important;
+    }
+
+    .svg5 {
+        margin-top: 0% !important;
+    }
 }
 
 @media (width:320px) {
@@ -2166,7 +2170,7 @@ section {
 
 
 
-@media(min-width:980px) and (max-width:1024px){
+@media(min-width:980px) and (max-width:1024px) {
     .hd {
         justify-content: center;
         align-items: center;
@@ -2205,10 +2209,12 @@ section {
         opacity: 1;
         transform: translate(0px, 50px);
     }
-    .secc{
+
+    .secc {
         width: 100%;
     }
-    .svg3{
+
+    .svg3 {
         margin-top: 0;
     }
 }
