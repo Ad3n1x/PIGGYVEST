@@ -2137,6 +2137,7 @@ section {
         transform: translate(180px, 120px);
     }
 }
+<<<<<<< HEAD
 
 @media (width: 414px) {
 
@@ -2194,3 +2195,15 @@ section {
         transform: translate(0px, 50px);
     }
 }
+=======
+@media (width:414px){
+    .svg,.svg1{
+        margin-top: 41%;
+    }
+}
+@media(width:720px){
+    .svg,.svg1{
+    margin-top:41%
+    }
+}
+>>>>>>> d4a09eccb20dedef8a1612af0d36839c4117937e
