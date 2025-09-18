@@ -1879,6 +1879,24 @@ section {
         width: 150px;
     }
 }
+@media (max-width:412px)
+{
+ .svg{
+    margin-top: 40% !important;
+ }
+ .svg1{
+    margin-top: 42% !important;
+ }
+.svg2{
+    margin-top: 0% !important;
+}
+.svg4{
+    margin-top: 0% !important;
+}
+.svg5{
+    margin-top: 0% !important;
+}
+}
 
 @media (width:320px) {
     .art-cont2 {
@@ -2193,22 +2211,4 @@ section {
     .svg3{
         margin-top: 0;
     }
-}
-@media (max-width:412px)
-{
- .svg{
-    margin-top: 40% !important;
- }
- .svg1{
-    margin-top: 42% !important;
- }
-.svg2{
-    margin-top: 0% !important;
-}
-.svg4{
-    margin-top: 0% !important;
-}
-.svg5{
-    margin-top: 0% !important;
-}
 }
