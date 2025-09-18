@@ -2186,9 +2186,9 @@ section {
         transition-timing-function: ease-in-out;
         opacity: 1;
         transform: translate(0px, 50px);
-    .secc{
-        overflow:scroll;
     }
+    .secc{
+        height: 400px;
     }
 }
 @media (width:760px){
