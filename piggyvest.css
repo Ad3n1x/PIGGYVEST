@@ -2196,10 +2196,19 @@ section {
 }
 @media (width:720px){
  .svg{
-    margin-top: 32%;
+    margin-top: 22%;
  }
  .svg1{
-    margin-top: 33%;
+    margin-top: 25%;
  }
-  
+.svg2{
+    margin-top: 0%;
+}
+.svg4{
+    margin-top: 0%;
+}
+.svg5{
+    margin-top: 0%;
+}
+
 }
