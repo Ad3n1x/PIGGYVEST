@@ -2194,7 +2194,7 @@ section {
         margin-top: 0;
     }
 }
-@media (width:412px)
+@media (min-width:350px) and (max-width:412px)
 {
  .svg{
     margin-top: 78%;
