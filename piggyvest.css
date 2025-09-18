@@ -2188,7 +2188,7 @@ section {
         transform: translate(0px, 50px);
     }
 }
-@media (width:760px){
+/* @media (width:760px){
  .svg{
     margin-top: 32%;
  }
@@ -2196,4 +2196,4 @@ section {
     margin-top: 33%;
  }
   
-}
+} */
