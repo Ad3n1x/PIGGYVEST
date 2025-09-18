@@ -2134,3 +2134,8 @@ section {
         transform: translate(180px, 120px);
     }
 }
+@media (width:414px) {
+    .svg,.svg1{
+        margin-top: 45%;
+    }
+}
