@@ -2197,18 +2197,18 @@ section {
 @media (width:412px)
 {
  .svg{
-    margin-top: 8%;
+    margin-top: 50% !important;
  }
  .svg1{
-    margin-top: 80%;
+    margin-top: 50% !important;
  }
 .svg2{
-    margin-top: 0%;
+    margin-top: 0% !important;
 }
 .svg4{
-    margin-top: 0%;
+    margin-top: 0% !important;
 }
 .svg5{
-    margin-top: 0%;
+    margin-top: 0% !important;
 }
 }
