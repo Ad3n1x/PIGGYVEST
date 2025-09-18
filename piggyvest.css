@@ -1,0 +1,2136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f9fa;
+    /* max-width: 1000px; */
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    margin-right: 20%;
+    margin-left: 20%; */
+}
+.bi{
+    width: 25px;
+    height: 35px;
+}
+.alert{
+    padding-bottom: 0%;
+}
+.navbar {
+    position: fixed;
+}
+
+nav {
+    /* max-width: 1250px; */
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    position: fixed;
+    background-color: #f8f9fa;
+}
+
+.nav-container {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px 0px;
+    gap: 30px;
+}
+
+.navbar-brand {
+    padding-right: 150px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.the {
+    font-size: 15px;
+}
+
+.nav-links>a {
+    text-decoration: none;
+    color: #475969;
+    ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    transition: color 0.3s ease;
+    font-weight: 400;
+}
+
+.nav-links:hover {
+    color: black;
+}
+
+.signup-button {
+    padding: 10px 20px;
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    /* cursor: pointer; */
+    font-size: 16px;
+    /* transition: background-color 0.3s ease; */
+    height: 50px;
+}
+
+.Create {
+    padding: 10px 20px;
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    /* cursor: pointer; */
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    background-color: #122231;
+    color: white;
+    height: 50px;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+    margin-left: 150px;
+    width: 300px;
+}
+
+.signup-button>a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.Create>a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+header {
+    width: 100%;
+    max-height: 1900px;
+}
+
+.hd {
+    /* max-width: 1000px; */
+    width: 100%;
+    /* height: 600px; */
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    /* position: relative; */
+    /* overflow: hidden; */
+    gap: 25px;
+    padding-top: 120px;
+    padding-bottom: 150px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.the {
+    padding: 5px;
+}
+
+.report-button {
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0089ff;
+    text-decoration: none;
+    color: white;
+    border: none;
+    border-radius: 35px;
+    /* cursor: pointer; */
+    font-size: 16px;
+    /* transition: background-color 0.3s ease; */
+    height: 45px;
+    /* margin-left: 20px; */
+    width: 310px;
+    animation-name: ade;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: once;
+    opacity: 0;
+    /* visibility: hidden; */
+    transition: ease-in-out;
+    animation-fill-mode: forwards;
+    align-items: center;
+}
+
+.report-button>a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@keyframes ade {
+    0% {
+        opacity: 0;
+        visibility: hidden;
+        /* transform: skewX(40deg); */
+        transform: translate(0px, 20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0px, 0px);
+    }
+}
+
+.report-button:hover {
+    background-color: black;
+}
+
+.report {
+    max-width: 548px;
+    font-size: 48px;
+    font-weight: 700;
+    /* margin-left: 50px; */
+    margin-top: 20px;
+    color: #122231;
+    font-family: Arial, Helvetica, sans-serif;
+    animation-name: nix;
+    animation-duration: 2s;
+    /* animation-delay:2s; */
+    animation-iteration-count: once;
+    opacity: 1;
+    transition: ease-in-out;
+    /* animation-fill-mode: forwards; */
+}
+
+@keyframes nix {
+    0% {
+        opacity: 0;
+        transform: skewX(40deg);
+        transform: translate(0px, 20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0px, 0px);
+    }
+}
+
+.port {
+    font-size: 20px;
+    font-weight: 400;
+    /* margin-left: 50px; */
+    margin-top: 20px;
+    color: #475969;
+    font-family: Arial, Helvetica, sans-serif;
+    animation-name: nix;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-iteration-count: once;
+    opacity: 0;
+    transition: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.down {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px;
+    position: relative;
+    top: 25%;
+    gap: 10px;
+    /* margin-left: 50px; */
+    margin-right: 120px;
+}
+
+.down-btn {
+    background-color: #122231;
+    height: 50px;
+    width: 170px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 15.5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+    font-weight: bold;
+
+}
+
+.down>a {
+    text-decoration: none;
+}
+
+.down-btn:hover {
+    background-color: black;
+    transform: translate(0%, -10%);
+    /* transform: scale(1.1); */
+    /* margin-right: 10px; */
+}
+
+.img1 {
+    width: 25px;
+    height: 25px;
+}
+
+.down-btn2 {
+    background-color: #122231;
+    height: 50px;
+    width: 170px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 15.5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.down-btn2:hover {
+    background-color: black;
+    transform: translate(0%, -10%);
+    /* margin-left: 10px; */
+}
+
+.head-imgcont {
+    max-width: 400px;
+    width: 100%;
+    opacity: 0;
+    z-index: 50;
+    /* margin-top: 15%; */
+    animation-name: nn;
+    animation-delay: 1s;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    transition: ease;
+    animation-iteration-count: once;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes nn {
+    0% {
+        opacity: 0;
+        transform: translate(0px, 20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0px, 0px);
+    }
+}
+
+.head-img {
+    width: 100%;
+    /* z-index: 5; */
+    animation-name: ii;
+    /* animation-delay: 5s; */
+    animation-duration: 5s;
+    transition: ease;
+    animation-iteration-count: infinite;
+    animation-fill-mode: alternate;
+
+}
+
+@keyframes ii {
+    0% {
+        transform: translateY(0px);
+    }
+
+    25% {
+        transform: translateY(-15px)
+    }
+
+    50% {
+        transform: translateY (0px);
+    }
+
+    75% {
+        transform: translateY(-15px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.head-img1 {
+    position: absolute;
+    width: 50%;
+    top: 15%;
+    right: 70%;
+    animation-name: ii;
+    animation-duration: 5s;
+    transition: ease;
+    animation-iteration-count: infinite;
+    animation-fill-mode: alternate;
+
+}
+
+.head-img2 {
+    position: absolute;
+    width: 50%;
+    /* height: 13%; */
+    top: 41%;
+    right: 70%;
+    animation-name: ii;
+    animation-duration: 5s;
+    transition: ease;
+    animation-iteration-count: infinite;
+    animation-fill-mode: alternate;
+
+}
+
+.head-img3 {
+    position: absolute;
+    width: 50%;
+    /* height: 13%; */
+    top: 70%;
+    right: 70%;
+    animation-name: ii;
+    animation-duration: 5s;
+    transition: ease;
+    animation-iteration-count: infinite;
+    animation-fill-mode: alternate;
+
+}
+
+.head-img4 {
+    position: absolute;
+    width: 50%;
+    /* height: 13%; */
+    top: 5%;
+    left: 65%;
+    animation-name: ii;
+    animation-duration: 5s;
+    transition: ease;
+    animation-iteration-count: infinite;
+    animation-fill-mode: alternate;
+
+}
+
+.head-img5 {
+    position: absolute;
+    width: 50%;
+    /* height: 13%; */
+    top: 50%;
+    left: 65%;
+    animation-name: ii;
+    animation-duration: 5s;
+    transition: ease;
+    animation-iteration-count: infinite;
+    animation-fill-mode: alternate;
+}
+
+.head-img6 {
+    position: absolute;
+    width: 50%;
+    /* height: 13%; */
+    top: 90%;
+    left: 65%;
+    animation-name: ii;
+    animation-duration: 5s;
+    transition: ease;
+    animation-iteration-count: infinite;
+    animation-fill-mode: alternate;
+
+}
+
+.head-end {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    width: 700px;
+    gap: 20px;
+    padding-bottom: 150px;
+    margin-right: 10%;
+    padding-top: 10%;
+}
+
+.head-end1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #122231;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+}
+
+.head-end2 {
+    font-size: 15px;
+    font-weight: 400;
+    color: #475969;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+}
+
+.head-end3 {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.main-head1 {
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-head2 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+}
+
+.main-body {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    /* max-width: 1250px; */
+    /* gap: 20px; */
+    padding: 50px 150px;
+    padding-bottom: 100px;
+}
+
+.main-body1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+.body1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f9fa;
+    max-width: 700px;
+    /* max-height: 500px; */
+    height: 100%;
+    width: 100%;
+    padding: 20px 40px;
+    padding-bottom: 0px;
+    border-radius: 12px;
+    color: #0f60d6;
+    overflow: hidden;
+    animation-name: das;
+    animation-iteration-count: once;
+    animation-duration: 5s;
+    /* animation-delay: 2s; */
+    transition-timing-function: ease;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+@keyframes das {
+    0% {
+        background-color: #0f60d6;
+        color: white;
+    }
+
+    50% {
+        background-color: #0f60d6;
+        color: white;
+    }
+
+    100% {
+        background-color: white;
+    }
+}
+
+.body2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f9fa;
+    max-width: 700px;
+    width: 100%;
+    padding: 20px 40px;
+    padding-bottom: 0px;
+    border-radius: 12px;
+    /* max-height: 500px; */
+    height: 100%;
+    color: #0089ff;
+    overflow: hidden;
+    animation-name: dat;
+    animation-iteration-count: once;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    transition-timing-function: ease;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+@keyframes dat {
+    0% {
+        background-color: #0089ff;
+        color: white;
+    }
+
+    50% {
+        background-color: #0089ff;
+        color: white;
+    }
+
+    100% {
+        background-color: white;
+    }
+}
+
+
+.body1:hover {
+    transition: transform;
+    /* transform: translate(180px,50px); */
+    transition-timing-function: ease-in-out;
+    transition-duration: 300ms;
+    background-color: #0f60d6;
+    color: white;
+}
+
+.body1>.main2:hover {
+    color: white;
+}
+
+
+.svg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-top: 27%;
+    position: absolute;
+}
+
+.svg1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-top: 27%;
+    position: absolute;
+}
+
+.svg2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-top: 14%;
+    position: absolute;
+    /* top: -20%; */
+}
+
+.svg4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-top: 14%;
+    position: absolute;
+}
+
+.svg5 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-top: 14%;
+    position: absolute;
+}
+
+.svg-icon {
+    /* position: absolute; */
+    z-index: 7;
+    /* margin-top: 250px; */
+}
+
+.body2:hover {
+    background-color: #0089ff;
+    color: white;
+}
+
+.main1 {
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main2 {
+    font-size: 25px;
+    margin-top: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main4 {
+    padding-top: 200px;
+}
+
+.body3 {
+    background-color: #f8f9fa;
+    width: 100%;
+    max-width: 700px;
+    padding: 20px 40px;
+    padding-bottom: 0px;
+    border-radius: 12px;
+    /* height: 500px; */
+    color: #39c277;
+    overflow: hidden;
+    animation-name: dau;
+    animation-iteration-count: once;
+    animation-duration: 5s;
+    animation-delay: 4s;
+    transition-timing-function: ease;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+@keyframes dau {
+    0% {
+        background-color: #39c277;
+        color: white;
+    }
+
+    50% {
+        background-color: #39c277;
+        color: white;
+    }
+
+    100% {
+        background-color: white;
+    }
+}
+
+.body4 {
+    background-color: #f8f9fa;
+    width: 100%;
+    max-width: 700px;
+    padding: 20px 40px;
+    border-radius: 12px;
+    /* height: 500px; */
+    color: #e5288e;
+    overflow: hidden;
+
+    animation-name: dav;
+    animation-iteration-count: once;
+    animation-duration: 5s;
+    animation-delay: 6s;
+    transition-timing-function: ease;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+@keyframes dav {
+    0% {
+        background-color: #e5288e;
+        color: white;
+    }
+
+    50% {
+        background-color: #e5288e;
+        color: white;
+    }
+
+    100% {
+        background-color: white;
+    }
+}
+
+.body3:hover {
+    background-color: #39c277;
+    color: white;
+}
+
+.body4:hover:hover {
+    background-color: #e5288e;
+    color: white;
+}
+
+.body5 {
+    background-color: #f8f9fa;
+    width: 100%;
+    /* height: 470px; */
+    max-width: 700px;
+    padding: 20px 40px;
+    border-radius: 12px;
+    color: #0c1825;
+    overflow: hidden;
+    animation-name: daw;
+    animation-iteration-count: once;
+    animation-duration: 5s;
+    animation-delay: 8s;
+    transition-timing-function: ease;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+@keyframes daw {
+    0% {
+        background-color: #0c1825;
+        color: white;
+    }
+
+    50% {
+        background-color: #0c1825;
+        color: white;
+    }
+
+    100% {
+        background-color: white;
+    }
+}
+
+.body6 {
+    background-color: #f8f9fa;
+    width: 100%;
+    /* height: 470px; */
+    max-width: 700px;
+    padding: 20px 40px;
+    border-radius: 12px;
+    overflow: hidden;
+    color: #ff783c;
+    animation-name: daz;
+    animation-iteration-count: once;
+    animation-duration: 5s;
+    animation-delay: 10s;
+    transition-timing-function: ease;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+@keyframes daz {
+    0% {
+        background-color: #ff783c;
+        color: white;
+    }
+
+    50% {
+        background-color: #ff783c;
+        color: white;
+    }
+
+    100% {
+        background-color: white;
+    }
+}
+
+.body5:hover {
+    background-color: #0c1825;
+    color: white;
+}
+
+.body6:hover {
+    background-color: #ff783c;
+    color: white;
+}
+
+section {
+    background-color: white;
+    border-radius: 25px;
+    width: 1000px;
+    margin-left: 10%;
+}
+
+.secc {
+    display: flex;
+    flex-direction: column;
+    /* justify-self: center; */
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /* width: 1000px; */
+    background-color: #7913e5;
+    /* gap: 200px; */
+    /* width: 1000px; */
+    border-radius: 19px;
+    height: 340px;
+    overflow: hidden;
+    /* padding-top: 5%; */
+    margin-bottom: 10%;
+    /* padding-right: 20px; */
+
+}
+
+.sec {
+    padding: 40px 40px;
+    border-radius: 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec2 {
+    padding-top: 60px;
+    align-items: center;
+}
+
+.sec2>h2 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sec2>p {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #475969;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.sec2-content {
+    /* background-color: #7913e5; */
+    padding: 20px 50px;
+    padding-bottom: 0px;
+}
+
+.sec2-content1 {
+    color: white;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sec2-content2 {
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 250px;
+    padding-top: 45px;
+}
+
+.sec2-content3 {
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 250px;
+    padding-top: 5px;
+}
+
+.svg3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-top: 60px;
+}
+
+.sec-img {
+    width: 40%;
+    padding-top: 20px;
+    z-index: 0;
+    opacity: 0;
+    animation-name: las;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: once;
+    animation-fill-mode: forwards;
+}
+
+@keyframes las {
+    0% {
+        transform: translate(0px 20px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate(0px 0px);
+        opacity: 1;
+    }
+}
+
+.art-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 90px;
+}
+
+.art1 {
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.art2 {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #475969;
+    padding-bottom: 100px;
+}
+
+.iframe {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.body1>img {
+    width: 65%;
+    height: 90%;
+    position: relative;
+    /* height: 100px; */
+    animation-name: piggy;
+    opacity: 0;
+    position: relative;
+    animation-iteration-count: once;
+    animation-iteration-count: once;
+    animation-name: piggy;
+    animation-duration: 5s;
+    /* animation-delay: 2s; */
+    transition-timing-function: ease;
+    opacity: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition-property: transform;
+}
+
+.body2>img {
+    width: 65%;
+    height: 90%;
+    position: relative;
+    /* height: 100px; */
+    animation-name: piggy;
+    opacity: 0;
+    position: relative;
+    animation-iteration-count: once;
+    animation-iteration-count: once;
+    animation-name: piggy;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    transition-timing-function: ease;
+    opacity: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition-property: transform;
+}
+
+.body3>img {
+    width: 65%;
+    height: 90%;
+    position: relative;
+    /* height: 100px; */
+    animation-name: piggy;
+    opacity: 0;
+    position: relative;
+    animation-iteration-count: once;
+    animation-iteration-count: once;
+    animation-name: piggy;
+    animation-duration: 5s;
+    animation-delay: 4s;
+    transition-timing-function: ease;
+    opacity: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition-property: transform;
+}
+
+.body4>img {
+    width: 65%;
+    height: 90%;
+    position: relative;
+    /* height: 100px; */
+    animation-name: piggy;
+    opacity: 0;
+    position: relative;
+    animation-iteration-count: once;
+    animation-iteration-count: once;
+    animation-name: piggy;
+    animation-duration: 5s;
+    animation-delay: 6s;
+    transition-timing-function: ease;
+    opacity: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition-property: transform;
+}
+
+.body5>img {
+    width: 65%;
+    height: 90%;
+    position: relative;
+    /* height: 100px; */
+    animation-name: piggy;
+    opacity: 0;
+    position: relative;
+    animation-iteration-count: once;
+    animation-iteration-count: once;
+    animation-name: piggy;
+    animation-duration: 5s;
+    animation-delay: 8s;
+    transition-timing-function: ease;
+    opacity: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition-property: transform;
+}
+
+.body6>img {
+    width: 65%;
+    height: 90%;
+    position: relative;
+    /* height: 100px; */
+    animation-name: piggy;
+    opacity: 0;
+    position: relative;
+    animation-iteration-count: once;
+    animation-iteration-count: once;
+    animation-name: piggy;
+    animation-duration: 5s;
+    animation-delay: 10s;
+    transition-timing-function: ease;
+    opacity: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition-property: transform;
+}
+
+.piggy-img {
+    width: 60%;
+    opacity: 0;
+    transition-property: transform;
+    transition-timing-function: ease-in-out;
+    transform: translate(300px, 100px);
+
+}
+
+.piggy-img:hover {
+    transition-property: transform;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+    opacity: 1;
+    transform: translate(150px, 50px);
+}
+
+@keyframes piggy {
+    0% {
+        opacity: 1;
+        transform: translate(500px, 150px);
+    }
+
+    50% {
+        opacity: 1;
+        transform: translate(200px, 50px);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(200px, 50px);
+    }
+}
+
+.art-cont2 {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    align-content: center;
+    justify-self: center;
+    justify-content: center;
+    padding: 20px 70px;
+    /* width: 1250px; */
+}
+
+.sad {
+    width: 500px;
+}
+
+.sa {
+    display: flex;
+    position: relative;
+    justify-items: center;
+    align-items: center;
+}
+
+.img-last {
+    width: 80%;
+    margin-top: 30%;
+}
+
+.end-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    border: 5px solid white;
+    position: absolute;
+    top: 745%;
+    left: 50%;
+    /* width: 1250px; */
+
+}
+
+.end-img:hover {
+    z-index: 2;
+}
+
+.end-img2 {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    border: 5px solid white;
+    position: absolute;
+    top: 745%;
+    left: 55%;
+
+}
+
+.end-img2:hover {
+    z-index: 2;
+}
+
+.end-img3 {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    border: 5px solid white;
+    position: absolute;
+    top: 745%;
+    left: 60%;
+}
+
+.end-img3:hover {
+    z-index: 2;
+}
+
+.end-img4 {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    border: 5px solid white;
+    position: absolute;
+    top: 745%;
+    left: 65%;
+}
+
+.end-img4:hover {
+    z-index: 2;
+}
+
+.end-img5 {
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+    border: 5px solid white;
+    position: absolute;
+    top: 745%;
+    left: 70%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #475969;
+}
+
+.end-img5:hover {
+    z-index: 2
+}
+
+.end-text {
+    font-size: 30px;
+    padding-top: 100px;
+    padding-right: 95px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.last-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px;
+    position: relative;
+    top: 25%;
+    gap: 10px;
+    /* margin-left: 50px; */
+    margin-right: 250px;
+}
+
+.last-btn1 {
+    background-color: transparent;
+    border: 1px solid #475969;
+    height: 50px;
+    width: 170px;
+    /* border: none; */
+    border-radius: 8px;
+    color: black;
+    font-size: 15.5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+    font-weight: bold;
+
+}
+
+.last-btn>a {
+    text-decoration: none;
+}
+
+.last-btn1:hover {
+    transform: translate(0%, -10%);
+    /* transform: scale(1.1); */
+    /* margin-right: 10px; */
+}
+
+.last-btn2:hover {
+    transform: translate(0%, -10%);
+    /* transform: scale(1.1); */
+    /* margin-right: 10px; */
+}
+
+.last-btn2 {
+    background-color: white;
+    height: 50px;
+    width: 170px;
+    border: 1px solid #475969;
+    /* border: none; */
+    border-radius: 8px;
+    color: black;
+    font-size: 15.5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.footer-head {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.footer-img1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 35px;
+    padding: 30px 40px;
+    width: 100%;
+}
+
+.footer-img {
+    width: 10%;
+    height: 30%;
+}
+
+.footer-body {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 60px 80px;
+    justify-content: center;
+}
+
+.footer-img2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-img2>img {
+    width: 80%;
+}
+
+.footer-body1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-body2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-body3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-body4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-body1-head {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.footer-body2-head {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.footer-body3-head {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.footer-body4-head {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-body1-link {
+    color: #475969;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-bottom: 5px;
+    width: 150px;
+}
+
+.footer-body2-link {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #475969;
+    text-decoration: none;
+    margin-bottom: 5px;
+    width: 150px;
+}
+
+.footer-body3-link {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #475969;
+    text-decoration: none;
+    margin-bottom: 5px;
+    width: 150px;
+}
+
+.footer-body4-link {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #475969;
+    text-decoration: none;
+    margin-bottom: 10px;
+    width: 250px;
+}
+
+.hr {
+    margin: 10px 20px;
+}
+
+.piggy {
+    justify-items: start;
+    padding-right: 550px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    color: #475969;
+}
+
+.as {
+    text-decoration: none;
+    color: #475969;
+    padding-left: 30px;
+}
+
+@media (width:1024px) {
+    .hd {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        gap: 70px;
+    }
+}
+
+@media (max-width:768px) {
+    .hd {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* width: 500px; */
+        /* width: 100%; */
+        background-color: transparent;
+        gap: 70px;
+        max-width: 1500px;
+    }
+
+    .down {
+        justify-content: start;
+        width: 300px;
+    }
+
+    .report-button {
+        width: 200px
+    }
+
+    .head {
+        width: 200px;
+    }
+
+    .head-end {
+        width: 50px;
+        justify-content: start;
+        justify-items: center;
+        margin-right: 50%
+    }
+
+    .main-head {
+        margin-left: 50%;
+        margin-top: 50%;
+    }
+
+    .main-body {
+        justify-items: start;
+    }
+
+    .main-body1 {
+        flex-wrap: wrap;
+        grid-template-columns: 1fr;
+        width: 200px;
+        font-size: 10px;
+    }
+
+    .main1 {
+        font-size: 16px;
+    }
+
+    .main2 {
+        font-size: 12px;
+    }
+
+    .piggy-img {
+        opacity: 1;
+        transition-property: transform;
+        transition-timing-function: ease-in-out;
+        transform: translate(300px, 150px);
+        right: 180px;
+        bottom: 80px;
+    }
+
+    .piggy-img:hover {
+        transition-property: transform;
+        transition-duration: .5s;
+        transition-timing-function: ease-in-out;
+        opacity: 1;
+        transform: translate(180px, 120px);
+    }
+
+    .svg {
+        margin-top: 50%;
+    }
+
+    .svg1 {
+        margin-top: 55%;
+    }
+
+    .svg2 {
+        margin-top: 0%
+    }
+
+    .svg4 {
+        margin-top: 2%;
+    }
+
+    .svg5 {
+        margin-top: 2%;
+    }
+
+    @keyframes piggy {
+        0% {
+            opacity: 0;
+            /* visibility: hidden; */
+            transform: translate(50px, 20px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translate(0px, 20px);
+        }
+    }
+
+    section {
+        margin-left: -50%;
+    }
+
+    .sec {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* margin-left: 150px; */
+        /* width: 1000px; */
+    }
+
+    .sec2 {
+        align-items: start;
+        height: 30px;
+        margin-left: 10px;
+    }
+
+    .sec2>h2 {
+        /* padding: 25px; */
+        width: 13px;
+    }
+
+    .sec2>p {
+        width: 100px;
+    }
+
+    .secc {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: row;
+        height: 600px;
+        width: 300px;
+        padding: 10px 10px;
+        /* padding-right: 90%; */
+        margin-top: 700px;
+        /* margin-left: -18%; */
+
+    }
+
+    .art-cont2 {
+        margin-left: 10%;
+        flex-wrap: wrap;
+    }
+
+    .art6 {
+        margin-left: 05%;
+    }
+
+    .sec-img {
+        width: 100%;
+        height: 270px;
+    }
+
+    .sec2-content {
+        width: 20px;
+        flex-wrap: wrap;
+        padding-left: 10px;
+        /* padding-right: 150px; */
+        width: 200px;
+    }
+
+    .sec2-content2 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-size: 13px;
+    }
+
+    .img-last {
+        width: 40%;
+        margin-left: 40%;
+    }
+
+    .end-text {
+        margin-left: 40%;
+    }
+
+    .last-btn {
+        margin-left: 40%;
+        margin-right: 0;
+
+    }
+
+    .last-btn1,
+    .last-btn2 {
+        width: 300px;
+    }
+
+    .footer-head1 {
+        padding-left: 30%;
+        text-align: center;
+    }
+
+    .footer-body {
+        flex-wrap: wrap;
+        margin-left: 30%;
+
+    }
+
+    .footer-img {
+        width: 40%;
+        margin-left: 20%;
+    }
+
+    .iframe {
+        margin-left: 43%;
+        justify-self: start;
+        width: 400px;
+    }
+
+    /* .art-cont{
+        margin-left: 40%;
+        width: 200px;
+    } */
+    .head-imgcont {
+        margin-left: 25%;
+        width: 80%;
+    }
+
+    .piggy {
+        justify-items: center;
+        padding-left: 25%;
+        padding-right: 0%;
+        width: 400px;
+    }
+
+    .as {
+        justify-items: center;
+        margin-left: 5%;
+        padding-right: 0%;
+        width: 90px;
+        flex-wrap: wrap;
+        padding-left: 0;
+    }
+
+    .art1,
+    .art2 {
+        width: 250px;
+    }
+
+    .art-cont {
+        padding-left: 90%;
+    }
+
+    .body1>img {
+        width: 100%;
+        height: 90%;
+        position: relative;
+        /* height: 100px; */
+        animation-name: piggy;
+        opacity: 0;
+        position: relative;
+        animation-iteration-count: once;
+        animation-iteration-count: once;
+        animation-name: piggy;
+        animation-duration: 5s;
+        /* animation-delay: 2s; */
+        transition-timing-function: ease;
+        opacity: 0;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        transition-property: transform;
+    }
+
+    .body2>img {
+        width: 100%;
+        height: 90%;
+        position: relative;
+        /* height: 100px; */
+        animation-name: piggy;
+        opacity: 0;
+        position: relative;
+        animation-iteration-count: once;
+        animation-iteration-count: once;
+        animation-name: piggy;
+        animation-duration: 5s;
+        animation-delay: 2s;
+        transition-timing-function: ease;
+        opacity: 0;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        transition-property: transform;
+    }
+
+    .body3>img {
+        width: 100%;
+        height: 90%;
+        position: relative;
+        /* height: 100px; */
+        animation-name: piggy;
+        opacity: 0;
+        position: relative;
+        animation-iteration-count: once;
+        animation-iteration-count: once;
+        animation-name: piggy;
+        animation-duration: 5s;
+        animation-delay: 4s;
+        transition-timing-function: ease;
+        opacity: 0;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        transition-property: transform;
+    }
+
+    .body4>img {
+        width: 100%;
+        height: 90%;
+        position: relative;
+        /* height: 100px; */
+        animation-name: piggy;
+        opacity: 0;
+        position: relative;
+        animation-iteration-count: once;
+        animation-iteration-count: once;
+        animation-name: piggy;
+        animation-duration: 5s;
+        animation-delay: 6s;
+        transition-timing-function: ease;
+        opacity: 0;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        transition-property: transform;
+    }
+
+    .body5>img {
+        width: 100%;
+        height: 90%;
+        position: relative;
+        /* height: 100px; */
+        animation-name: piggy;
+        opacity: 0;
+        position: relative;
+        animation-iteration-count: once;
+        animation-iteration-count: once;
+        animation-name: piggy;
+        animation-duration: 5s;
+        animation-delay: 8s;
+        transition-timing-function: ease;
+        opacity: 0;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        transition-property: transform;
+    }
+
+    .body6>img {
+        width: 100%;
+        height: 90%;
+        position: relative;
+        /* height: 100px; */
+        animation-name: piggy;
+        opacity: 0;
+        position: relative;
+        animation-iteration-count: once;
+        animation-iteration-count: once;
+        animation-name: piggy;
+        animation-duration: 5s;
+        animation-delay: 10s;
+        transition-timing-function: ease;
+        opacity: 0;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        transition-property: transform;
+    }
+
+    @keyframes piggy {
+        0% {
+            opacity: 1;
+            transform: translate(500px, 150px);
+        }
+
+        50% {
+            opacity: 1;
+            transform: translate(200px, 120px);
+        }
+
+        100% {
+            opacity: 0;
+            transform: translate(200px, 120px);
+        }
+    }
+
+    .down {
+        justify-content: center;
+    }
+
+    .down-btn {
+        width: 150px;
+    }
+
+    .down-btn2 {
+        width: 150px;
+    }
+}
+
+@media (width:320px) {
+    .art-cont2 {
+        margin-left: 75%;
+    }
+
+    footer {
+        margin-left: 45%;
+    }
+
+    .footer-img {
+        width: 100%;
+    }
+}
+
+@media (width:375px) {
+    .svg {
+        margin-top: 45%;
+    }
+
+    .svg1 {
+        margin-top: 50%;
+    }
+}
+
+@media (width:425px) {
+    .svg {
+        margin-top: 40%;
+    }
+
+    .svg1 {
+        margin-top: 45%;
+    }
+}
+
+@media (width:768px) {
+    .svg {
+        margin-top: 22%;
+    }
+
+    .svg1 {
+        margin-top: 23%;
+    }
+
+    .sec {
+        margin-left: 15%;
+    }
+
+    .art6 {
+        margin-left: -45%;
+    }
+
+    .art-cont {
+        margin-left: -65%;
+    }
+
+    .art-cont2 {
+        margin-left: -65%;
+    }
+
+    footer {
+        width: 400px;
+    }
+
+    .main-head {
+        margin-left: 15%;
+        width: 300px;
+    }
+}
+
+@media (min-width:1024px) and (max-width:2560px) {
+    .end-img {
+        left: 0%;
+    }
+
+    .end-img2 {
+        left: 10%;
+    }
+
+    .end-img3 {
+        left: 20%;
+    }
+
+    .end-img4 {
+        left: 30%;
+    }
+
+    .end-img5 {
+        left: 40%;
+    }
+
+    .last-btn {
+        width: 400px;
+    }
+}
+
+@media (width:1024px) {
+
+    .svg2,
+    .svg4,
+    .svg5 {
+        margin-top: 0%;
+    }
+
+    .body1>img {
+        width: 100%;
+        height: 90%;
+        position: relative;
+        /* height: 100px; */
+        animation-name: piggy;
+        opacity: 0;
+        position: relative;
+        animation-iteration-count: once;
+        animation-iteration-count: once;
+        animation-name: piggy;
+        animation-duration: 5s;
+        /* animation-delay: 2s; */
+        transition-timing-function: ease;
+        opacity: 0;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        transition-property: transform;
+    }
+
+    .body2>img {
+        width: 100%;
+        height: 90%;
+        position: relative;
+        /* height: 100px; */
+        animation-name: piggy;
+        opacity: 0;
+        position: relative;
+        animation-iteration-count: once;
+        animation-iteration-count: once;
+        animation-name: piggy;
+        animation-duration: 5s;
+        animation-delay: 2s;
+        transition-timing-function: ease;
+        opacity: 0;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        transition-property: transform;
+    }
+
+    .body3>img {
+        width: 100%;
+        height: 90%;
+        position: relative;
+        /* height: 100px; */
+        animation-name: piggy;
+        opacity: 0;
+        position: relative;
+        animation-iteration-count: once;
+        animation-iteration-count: once;
+        animation-name: piggy;
+        animation-duration: 5s;
+        animation-delay: 4s;
+        transition-timing-function: ease;
+        opacity: 0;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        transition-property: transform;
+    }
+
+    .body4>img {
+        width: 100%;
+        height: 90%;
+        position: relative;
+        /* height: 100px; */
+        animation-name: piggy;
+        opacity: 0;
+        position: relative;
+        animation-iteration-count: once;
+        animation-iteration-count: once;
+        animation-name: piggy;
+        animation-duration: 5s;
+        animation-delay: 6s;
+        transition-timing-function: ease;
+        opacity: 0;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        transition-property: transform;
+    }
+
+    .body5>img {
+        width: 100%;
+        height: 90%;
+        position: relative;
+        /* height: 100px; */
+        animation-name: piggy;
+        opacity: 0;
+        position: relative;
+        animation-iteration-count: once;
+        animation-iteration-count: once;
+        animation-name: piggy;
+        animation-duration: 5s;
+        animation-delay: 8s;
+        transition-timing-function: ease;
+        opacity: 0;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        transition-property: transform;
+    }
+
+    .body6>img {
+        width: 100%;
+        height: 90%;
+        position: relative;
+        /* height: 100px; */
+        animation-name: piggy;
+        opacity: 0;
+        position: relative;
+        animation-iteration-count: once;
+        animation-iteration-count: once;
+        animation-name: piggy;
+        animation-duration: 5s;
+        animation-delay: 10s;
+        transition-timing-function: ease;
+        opacity: 0;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        transition-property: transform;
+    }
+
+    @keyframes piggy {
+        0% {
+            opacity: 1;
+            transform: translate(500px, 150px);
+        }
+
+        50% {
+            opacity: 1;
+            transform: translate(200px, 120px);
+        }
+
+        100% {
+            opacity: 0;
+            transform: translate(200px, 120px);
+        }
+    }
+
+    .piggy-img {
+        opacity: 1;
+        transition-property: transform;
+        transition-timing-function: ease-in-out;
+        transform: translate(300px, 150px);
+        right: 200px;
+        bottom: 35px;
+    }
+
+    .piggy-img:hover {
+        transition-property: transform;
+        transition-duration: .5s;
+        transition-timing-function: ease-in-out;
+        opacity: 1;
+        transform: translate(180px, 120px);
+    }
+}
