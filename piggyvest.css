@@ -1464,7 +1464,12 @@ section {
 .as {
     text-decoration: none;
     color: #475969;
-    padding-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 35px;
+    margin-right: 0;
+
 }
 
 @media (width:1024px) {
@@ -1714,9 +1719,8 @@ section {
 
     .as {
         justify-items: center;
-        margin-left: 5%;
+        margin-left: 25%;
         padding-right: 0%;
-        width: 90px;
         flex-wrap: wrap;
         padding-left: 0;
     }
