@@ -1551,7 +1551,7 @@ section {
         transform: translate(180px, 120px);
     }
 
-    /* .svg {
+    .svg {
         margin-top: 50%;
     }
 
@@ -1569,7 +1569,7 @@ section {
 
     .svg5 {
         margin-top: 2%;
-    } */
+    }
 
     @keyframes piggy {
         0% {
