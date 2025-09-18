@@ -937,7 +937,6 @@ section {
     flex-direction: row;
     align-items: center;
     gap: 10px;
-    /* margin-top: 60px; */
 }
 
 .sec-img {
